@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>幸運四葉草 - Lucky Clover</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>幸運四葉草</h1>
+      <p class="subtitle">遇見幸運，開啟美好日常</p>
+    </header>
+
+    <main>
+      <!-- 幸運物展示區 -->
+      <div class="clover-container" id="clover">
+        <div class="leaf leaf-1"></div>
+        <div class="leaf leaf-2"></div>
+        <div class="leaf leaf-3"></div>
+        <div class="leaf leaf-4"></div>
+        <div class="stem"></div>
+      </div>
+      <p class="hint">點擊四葉草，獲取你的幸運祝福！</p>
+      <div id="blessing" class="blessing-text"></div>
+
+      <!-- 故事與由來介紹 -->
+      <section class="story-section">
+        <h2>象徵意涵</h2>
+        <p>在自然界中，四葉草出現的機率極低，因此相傳只要找到四葉草，就能獲得永恆的好運。四片葉子分別代表著：</p>
+        <ul class="meaning-list">
+          <li><strong>第一片：</strong> 希望（Hope）</li>
+          <li><strong>第二片：</strong> 信心（Faith）</li>
+          <li><strong>第三片：</strong> 愛情（Love）</li>
+          <li><strong>第四片：</strong> 幸運（Luck）</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
