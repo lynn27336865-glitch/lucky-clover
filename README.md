@@ -1,119 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+# 幸運物動態互動網頁 - 四葉草
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #2e7d32;
-  padding: 20px;
-}
+- **學號**：514170313
+- **姓名**：蕭琳恩
 
-.container {
-  background: rgba(255, 255, 255, 0.9);
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  max-width: 500px;
-  width: 100%;
-  text-align: center;
-}
+## 專案說明
+本專案為幸運物互動網頁展示，選用「幸運四葉草」作為主題，象徵希望、信心、愛情與幸運。
+網頁具備滑鼠懸停放大發光、點擊觸發旋轉及隨機抽取幸運祝福等動態互動效果。
 
-h1 {
-  font-size: 2rem;
-  margin-bottom: 8px;
-}
+## 專案架構與儲存方式
+本專案程式碼包含：
+- `index.html`：網頁架構與內容排版
+- `style.css`：視覺設計與葉片排版樣式
+- `script.js`：滑鼠點擊旋轉與祝福動態腳本
+- `README.md`：專案儲存與說明文件
 
-.subtitle {
-  color: #66bb6a;
-  margin-bottom: 30px;
-}
-
-/* 四葉草圖形 */
-.clover-container {
-  width: 140px;
-  height: 140px;
-  position: relative;
-  margin: 0 auto 20px;
-  cursor: pointer;
-  transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.clover-container:hover {
-  transform: scale(1.1) rotate(5deg);
-  filter: drop-shadow(0 0 12px rgba(76, 175, 80, 0.6));
-}
-
-.leaf {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background: #4caf50;
-  border-radius: 50% 50% 0 50%;
-  transition: transform 0.4s ease;
-}
-
-.leaf-1 { top: 15px; left: 15px; transform: rotate(0deg); }
-.leaf-2 { top: 15px; right: 15px; transform: rotate(90deg); }
-.leaf-3 { bottom: 25px; right: 15px; transform: rotate(180deg); }
-.leaf-4 { bottom: 25px; left: 15px; transform: rotate(270deg); }
-
-.stem {
-  position: absolute;
-  bottom: 0;
-  left: 65px;
-  width: 10px;
-  height: 45px;
-  background: #388e3c;
-  border-radius: 5px;
-  transform: rotate(-10deg);
-  z-index: -1;
-}
-
-.hint {
-  font-size: 0.9rem;
-  color: #81c784;
-  margin-bottom: 10px;
-}
-
-.blessing-text {
-  min-height: 30px;
-  font-weight: bold;
-  color: #1b5e20;
-  margin-bottom: 25px;
-  transition: opacity 0.3s;
-}
-
-.story-section {
-  text-align: left;
-  border-top: 1px solid #e0e0e0;
-  padding-top: 20px;
-}
-
-.story-section h2 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.story-section p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: #424242;
-  margin-bottom: 10px;
-}
-
-.meaning-list {
-  list-style: none;
-  font-size: 0.9rem;
-  color: #388e3c;
-}
-
-.meaning-list li {
-  margin: 4px 0;
-}
+本專案透過 Git 進行版本控制，並儲存於 GitHub 儲存庫，最後匯出為 ZIP 壓縮檔繳交。
